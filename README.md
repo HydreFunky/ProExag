@@ -4,5 +4,5 @@ Systéme d'exercice d'entrainement E-Sport.
 
 Technologie :
 
-PHP/Mysqli
+PHP/PDO
 Jquery
