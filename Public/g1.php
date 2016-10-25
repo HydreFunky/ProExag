@@ -1,7 +1,8 @@
 <div class="jumbotron">
 <center>
 <div id="bouton">
-<div class="alert alert-warning" role="alert"><b>Objectif :</b>Cliquer le plus de fois sur le cercle</div> 
+<h3>Exercice N°1</h3>
+<div class="alert alert-warning" role="alert"><b>Objectif : </b>Cliquer le plus de fois sur le cercle</div> 
 <button type="button" class="btn btn-primary" onclick="start()">Lancer l'exercice</button></div>
 <div id="bip" class="display"></div>
 <div id="next">
@@ -34,6 +35,7 @@ function bip()
 {
   document.getElementById("bip").innerHTML = counter + " secondes restantes";
   $('#cercle').show();
+  $('#bouton').hide();
   counter--;
 }
 function start()
@@ -50,7 +52,7 @@ document.getElementById("clicks").value = clicks;
 document.getElementById("clickss").innerHTML = clicks;
 };
 </script>
-<center><div id="cercle" class="display"><img width="150px" height="150px" src="/Img/cercle.png" onClick="onClick()"></img></div></center>
+<center><div id="cercle" class="display"><img width="150px" height="150px" src="Img/cercle.png" onClick="onClick()"></img></div></center>
 <p>Score: <a id="clickss">0</a></p>
 </div>
 </body></html>

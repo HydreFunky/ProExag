@@ -6,7 +6,7 @@
 	$exercice = 1;
 	$score = $_POST['clicks'];
 	$Resultat = new Exercice($username, $exercice, $score);
-	echo $Resultat->register_exercice();
+	$Resultat->register_exercice();
 }
 ?>
 Exercice 2
